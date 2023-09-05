@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(187, 187, 238);
+}
+#box{
+    height: 70%;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(149, 149, 235);
+}
+#top{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(104, 104, 236);
+}
+.abc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#one{
+    height:20px;
+    width: 30px;
+    margin: 10px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(250, 245, 245);
+}
+#two{
+    height:20px;
+    width: 30px;
+    margin: 10px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+#three{
+    height:20px;
+    width: 30px;
+    margin: 10px;
+    padding: 1px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+}
+#botom{
+    width: 100%;
+    height: calc(100%-80px);
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(149, 149, 235);
+}
+.bubble{
+    font-weight: 600;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(104, 104, 236);
+}
+.bubble:hover{
+    background-color: rgb(58, 58, 238);
+    cursor: pointer;
+}
